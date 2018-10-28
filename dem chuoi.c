@@ -2,13 +2,9 @@
 #include<conio.h>
 #include<string.h>
 int main(){
-	char chuoi[50];
-	printf("nhap chuoi: ");
-	scanf("%s",chuoi);
-	int i, dem=0;
-	for( i=0;i<strlen(chuoi);i++) {
-		dem++;
-	}
-	printf("so ki tu trong chuoi la: %d",dem);
+	char Chuoi[100];
+	printf("Nhap chuoi: ");	gets(Chuoi);
+	printf("Chuoi vua nhap la: ");	puts(Chuoi);
+	int dem = strlen(Chuoi);
+	printf("So ki tu cua chuoi: %d", dem);
 }
-
